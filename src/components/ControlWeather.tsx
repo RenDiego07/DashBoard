@@ -49,13 +49,13 @@ export default function ControlWeather() {
         flexDirection: 'column',
       }}
     >
-        {/*
+        
       <Typography mb={2} component="h3" variant="h6" color="primary">
         {selected >= 0 ? items[selected].description : ""}
       </Typography>
-        */}
+        
 
-<Typography ref={descriptionRef} mt={2} component="p" color="text.secondary" />
+
 
       <Box sx={{ minWidth: 120 }}>
         <FormControl fullWidth>
